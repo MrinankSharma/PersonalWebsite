@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: News
 
 # View.
 #   1 = List
@@ -11,6 +11,5 @@ view: 3
 header:
   caption: ""
   image: ""
----
 
-Coming soon!
+---
