@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | My Notes</title>
+    <link>/authors/</link>
+      <atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mrinank Sharma © 2019</copyright><lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/icon-192.png</url>
+      <title>Authors</title>
+      <link>/authors/</link>
+    </image>
+    
+    <item>
+      <title>Mrinank Sharma</title>
+      <link>/authors/mrinank-sharma/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/authors/mrinank-sharma/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>/authors/admin/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m a first year PhD student at Magdalen College at the Univeristy of Oxford, in the &lt;a href=&#34;https://www.eng.ox.ac.uk/aims-cdt/&#34; target=&#34;_blank&#34;&gt;Autonomous Intelligent Machines and Systems CDT (AIMS)&lt;/a&gt; programme.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;m broadly interested in Bayesian machine learning, believing that uncertainty quantification is essential, especially for optimal decision making. I also want to develop general techniques and algorithms which enable inference to be applied to many real-world scenarios, including including improving &amp;lsquo;robustness&amp;rsquo; (e.g. traditional adversarial robustness, as well other techniques such as differential privacy) as well as data efficiency (spanning semi-supervised learning to meta-learning).&lt;/p&gt;
+
+&lt;p&gt;I also identify strongly with the effective altruism community and hope to use my career to make a positive social impact.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

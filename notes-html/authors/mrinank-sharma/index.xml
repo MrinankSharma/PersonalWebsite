@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mrinank Sharma | My Notes</title>
+    <link>/authors/mrinank-sharma/</link>
+      <atom:link href="/authors/mrinank-sharma/index.xml" rel="self" type="application/rss+xml" />
+    <description>Mrinank Sharma</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Mrinank Sharma © 2019</copyright><lastBuildDate>Tue, 24 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/icon-192.png</url>
+      <title>Mrinank Sharma</title>
+      <link>/authors/mrinank-sharma/</link>
+    </image>
+    
+    <item>
+      <title>Differential Privacy and Approximate Bayesian Inference</title>
+      <link>/book/privacy_project/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/book/privacy_project/</guid>
+      <description>&lt;p&gt;Machine learning is often applied in contexts in which:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The data is distributed across many different client devices. Think mobile phones, autonomous vehicles, Internet of Things devices &amp;hellip;&lt;/li&gt;
+&lt;li&gt;The data contains to &lt;em&gt;private, sensitive information about individuals&lt;/em&gt;, for example, healthcare data.&lt;/li&gt;
+&lt;li&gt;We want to train a machine learning model to help us to &lt;em&gt;make decisions&lt;/em&gt; i.e. we want to be Bayesian and model uncertainty.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Examples of where all three of the above hold include smartphone keyboard text prediction, and healthcare drug sensitivity analysis (i.e., which drug should be given to a particular patient).&lt;/p&gt;
+
+&lt;p&gt;The task of learning an accurate Bayesian model on distributed data is already somewhat challenging, but when individuals contribute sensitive data, there are additional concerns. Will the model predictions inadvertantly leak information about the individuals used to train the model? In fact, neural networks have been show to exhibit the property of &lt;em&gt;memorising&lt;/em&gt; training examples &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Given this, how can we convince new users to contribute their data? Note that we want to ensure privacy in the sense that when the full trained model is released to the public, the information about individual users is still protected.&lt;/p&gt;
+
+&lt;p&gt;Differential Privacy (DP) &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; is the current gold standard for mathematically quantifying the level of privacy offered by a randomised algorithm. Note that there is a requirement for the algorithm to be randomised, and this can be interpreted as giving each individual some plausibility deniability.&lt;/p&gt;
+
+&lt;p&gt;This project built upon Partitioned Variational Inference (PVI) &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, a recently developed framework which supports federated (distributed) variational inference, a form of approximate inference, adapting the algorithm to provide a differential privacy guarantee. An arVix paper should be appearing soon, but in the meantime, please see &lt;a href=&#34;https://github.com/MrinankSharma/DP-PVI&#34; target=&#34;_blank&#34;&gt;the Github&lt;/a&gt; and do not hestitate to contact me if you are interested!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Nicholas  Carlini,   Chang  Liu,   Úlfar  Erlingsson,   Jernej  Kos,   Dawn  Song,   Úlfar  Erlingsson,   and  Dawn  Song. The  Secret  Sharer:    Measuring  Unintended  Neural  Network  Memorization  &amp;amp;  Extracting  Secrets. 2018. &lt;a href=&#34;http://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34;&gt;arVix&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Cynthia Dwork and Aaron Roth. The Algorithmic Foundations of Differential privacy. Foundations and Trends in Theoretical Computer Science, 9(3-4):211–487, 2013. ISSN 15513068. doi:10.1561 / 0400000042.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;Thang D. Bui, Cuong V. Nguyen, Siddharth Swaroop, and Richard E. Turner.  Partitioned Variational Inference: A unified framework encompassing federated and continual learning. November 2018. &lt;a href=&#34;http://arxiv.org/abs/1811.11206&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Differential Privacy and Approximate Bayesian Inference</title>
+      <link>/mytalk/privacy_project/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/mytalk/privacy_project/</guid>
+      <description>&lt;p&gt;Machine learning is often applied in contexts in which:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The data is distributed across many different client devices. Think mobile phones, autonomous vehicles, Internet of Things devices &amp;hellip;&lt;/li&gt;
+&lt;li&gt;The data contains to &lt;em&gt;private, sensitive information about individuals&lt;/em&gt;, for example, healthcare data.&lt;/li&gt;
+&lt;li&gt;We want to train a machine learning model to help us to &lt;em&gt;make decisions&lt;/em&gt; i.e. we want to be Bayesian and model uncertainty.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Examples of where all three of the above hold include smartphone keyboard text prediction, and healthcare drug sensitivity analysis (i.e., which drug should be given to a particular patient).&lt;/p&gt;
+
+&lt;p&gt;The task of learning an accurate Bayesian model on distributed data is already somewhat challenging, but when individuals contribute sensitive data, there are additional concerns. Will the model predictions inadvertantly leak information about the individuals used to train the model? In fact, neural networks have been show to exhibit the property of &lt;em&gt;memorising&lt;/em&gt; training examples &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Given this, how can we convince new users to contribute their data? Note that we want to ensure privacy in the sense that when the full trained model is released to the public, the information about individual users is still protected.&lt;/p&gt;
+
+&lt;p&gt;Differential Privacy (DP) &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; is the current gold standard for mathematically quantifying the level of privacy offered by a randomised algorithm. Note that there is a requirement for the algorithm to be randomised, and this can be interpreted as giving each individual some plausibility deniability.&lt;/p&gt;
+
+&lt;p&gt;This project built upon Partitioned Variational Inference (PVI) &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, a recently developed framework which supports federated (distributed) variational inference, a form of approximate inference, adapting the algorithm to provide a differential privacy guarantee. An arVix paper should be appearing soon, but in the meantime, please see &lt;a href=&#34;https://github.com/MrinankSharma/DP-PVI&#34; target=&#34;_blank&#34;&gt;the Github&lt;/a&gt; and do not hestitate to contact me if you are interested!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Nicholas  Carlini,   Chang  Liu,   Úlfar  Erlingsson,   Jernej  Kos,   Dawn  Song,   Úlfar  Erlingsson,   and  Dawn  Song. The  Secret  Sharer:    Measuring  Unintended  Neural  Network  Memorization  &amp;amp;  Extracting  Secrets. 2018. &lt;a href=&#34;http://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34;&gt;arVix&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Cynthia Dwork and Aaron Roth. The Algorithmic Foundations of Differential privacy. Foundations and Trends in Theoretical Computer Science, 9(3-4):211–487, 2013. ISSN 15513068. doi:10.1561 / 0400000042.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;Thang D. Bui, Cuong V. Nguyen, Siddharth Swaroop, and Richard E. Turner.  Partitioned Variational Inference: A unified framework encompassing federated and continual learning. November 2018. &lt;a href=&#34;http://arxiv.org/abs/1811.11206&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Differential Privacy and Approximate Bayesian Inference</title>
+      <link>/paper/privacy_project/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:00 +0000</pubDate>
+      <guid>/paper/privacy_project/</guid>
+      <description>&lt;p&gt;Machine learning is often applied in contexts in which:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;The data is distributed across many different client devices. Think mobile phones, autonomous vehicles, Internet of Things devices &amp;hellip;&lt;/li&gt;
+&lt;li&gt;The data contains to &lt;em&gt;private, sensitive information about individuals&lt;/em&gt;, for example, healthcare data.&lt;/li&gt;
+&lt;li&gt;We want to train a machine learning model to help us to &lt;em&gt;make decisions&lt;/em&gt; i.e. we want to be Bayesian and model uncertainty.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Examples of where all three of the above hold include smartphone keyboard text prediction, and healthcare drug sensitivity analysis (i.e., which drug should be given to a particular patient).&lt;/p&gt;
+
+&lt;p&gt;The task of learning an accurate Bayesian model on distributed data is already somewhat challenging, but when individuals contribute sensitive data, there are additional concerns. Will the model predictions inadvertantly leak information about the individuals used to train the model? In fact, neural networks have been show to exhibit the property of &lt;em&gt;memorising&lt;/em&gt; training examples &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. Given this, how can we convince new users to contribute their data? Note that we want to ensure privacy in the sense that when the full trained model is released to the public, the information about individual users is still protected.&lt;/p&gt;
+
+&lt;p&gt;Differential Privacy (DP) &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt; is the current gold standard for mathematically quantifying the level of privacy offered by a randomised algorithm. Note that there is a requirement for the algorithm to be randomised, and this can be interpreted as giving each individual some plausibility deniability.&lt;/p&gt;
+
+&lt;p&gt;This project built upon Partitioned Variational Inference (PVI) &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;, a recently developed framework which supports federated (distributed) variational inference, a form of approximate inference, adapting the algorithm to provide a differential privacy guarantee. An arVix paper should be appearing soon, but in the meantime, please see &lt;a href=&#34;https://github.com/MrinankSharma/DP-PVI&#34; target=&#34;_blank&#34;&gt;the Github&lt;/a&gt; and do not hestitate to contact me if you are interested!&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;Nicholas  Carlini,   Chang  Liu,   Úlfar  Erlingsson,   Jernej  Kos,   Dawn  Song,   Úlfar  Erlingsson,   and  Dawn  Song. The  Secret  Sharer:    Measuring  Unintended  Neural  Network  Memorization  &amp;amp;  Extracting  Secrets. 2018. &lt;a href=&#34;http://arxiv.org/abs/1802.08232&#34; target=&#34;_blank&#34;&gt;arVix&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Cynthia Dwork and Aaron Roth. The Algorithmic Foundations of Differential privacy. Foundations and Trends in Theoretical Computer Science, 9(3-4):211–487, 2013. ISSN 15513068. doi:10.1561 / 0400000042.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;Thang D. Bui, Cuong V. Nguyen, Siddharth Swaroop, and Richard E. Turner.  Partitioned Variational Inference: A unified framework encompassing federated and continual learning. November 2018. &lt;a href=&#34;http://arxiv.org/abs/1811.11206&#34; target=&#34;_blank&#34;&gt;arXiv&lt;/a&gt;
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

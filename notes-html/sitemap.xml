@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/authors/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/book/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/differential-privacy-dp/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/book/privacy_project/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/mytalk/privacy_project/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/paper/privacy_project/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/mrinank-sharma/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/paper/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/mytalk/</loc>
+    <lastmod>2019-09-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/authors/admin/</loc>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/publication_types/</loc>
+  </url>
+  
+</urlset>
