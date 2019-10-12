@@ -1,27 +1,36 @@
 ---
-title: "Differential Privacy and Approximate Bayesian Inference"
-summary: "Learning Private, Bayesian Machine Learning Models in the Federating Learning Context"
-authors: [Mrinank Sharma]
-tags: [Differential Privacy (DP)]
+title: "The Charisma Myth"
+summary: "Master the Art of Personal Magnetism"
+authors: [Olivia Fox Cabane]
+tags: [Self Improvement]
 categories: []
 share: false
-date: 2019-09-24
+date: 2013-04-04
 math: true
 ---
-Machine learning is often applied in contexts in which:
+> Charisma doesn't require you to be outgoing or attractive, or for your to change your personality. It's a skill, a discipline, and you can develop it.
 
-1. The data is distributed across many different client devices. Think mobile phones, autonomous vehicles, Internet of Things devices ...
-2. The data contains to *private, sensitive information about individuals*, for example, healthcare data.
-3. We want to train a machine learning model to help us to *make decisions* i.e. we want to be Bayesian and model uncertainty.
+Three immediate tips to be more charismatic:
 
-Examples of where all three of the above hold include smartphone keyboard text prediction, and healthcare drug sensitivity analysis (i.e., which drug should be given to a particular patient).
+1. Lower the intonation of your voice at the end of your sentence.
+2. Reduce how quickly, and how often, you nod.
+3. Pause before you speak. 2 seconds is a good duration.
 
-The task of learning an accurate Bayesian model on distributed data is already somewhat challenging, but when individuals contribute sensitive data, there are additional concerns. Will the model predictions inadvertantly leak information about the individuals used to train the model? In fact, neural networks have been show to exhibit the property of *memorising* training examples [^1]. Given this, how can we convince new users to contribute their data? Note that we want to ensure privacy in the sense that when the full trained model is released to the public, the information about individual users is still protected.
+Being charismatic is made up of three qualities, **presence, power and warmth**. These are controlled through your body language, which is hard to directly control. Therefore, you need to work on improving your internal emotional state which will thereby improve your internal state.
 
-Differential Privacy (DP) [^2] is the current gold standard for mathematically quantifying the level of privacy offered by a randomised algorithm. Note that there is a requirement for the algorithm to be randomised, and this can be interpreted as giving each individual some plausibility deniability.
+As a result, discomfort (e.g., physical, emotional, ...) negatively affects how charismatic you are. Plan ahead to try and avoid discomfort, but if external discomfort happens, you could either: (a) try a *responsibility transfer* i.e. imagine it is in control of another being or (b) explain it i.e., make use of the ambiguity, if a delusional interpretation helps you, go for it.
 
-This project built upon Partitioned Variational Inference (PVI) [^3], a recently developed framework which supports federated (distributed) variational inference, a form of approximate inference, adapting the algorithm to provide a differential privacy guarantee. An arVix paper should be appearing soon, but in the meantime, please see [the Github](https://github.com/MrinankSharma/DP-PVI) and do not hestitate to contact me if you are interested!
+Internal discomfort can be resolved as follows:
 
-[^1]: Nicholas  Carlini,   Chang  Liu,   Úlfar  Erlingsson,   Jernej  Kos,   Dawn  Song,   Úlfar  Erlingsson,   and  Dawn  Song. The  Secret  Sharer:    Measuring  Unintended  Neural  Network  Memorization  &  Extracting  Secrets. 2018. [arVix](http://arxiv.org/abs/1802.08232)
-[^2]: Cynthia Dwork and Aaron Roth. The Algorithmic Foundations of Differential privacy. Foundations and Trends in Theoretical Computer Science, 9(3-4):211–487, 2013. ISSN 15513068. doi:10.1561 / 0400000042.
-[^3]: Thang D. Bui, Cuong V. Nguyen, Siddharth Swaroop, and Richard E. Turner.  Partitioned Variational Inference: A unified framework encompassing federated and continual learning. November 2018. [arXiv](http://arxiv.org/abs/1811.11206)
+1. Destigmatize the experience. We *all* go through this experience, it is nothing to be ashamed of. Thoughts like we *should* feel happy are useless! It's not one emotion felt by you, but rather a shared emotion felt by many.
+2. Remind yourself that your thoughts are not neccessarily accurate e.g. people assume in interactions all responses relate directly to what you have done. 
+3. *Rewrite reality*: try and turn the situation on it's head and look for the positives. One nice idea is to try a letter to a person who has upset you, and then you can write their fictional response! This will help you get some closure.
+
+> Resentment is like drinking poison and waiting for the other person to die.
+
+Tips for creating a charismatic mental state:
+
+1. Visualisation.
+2. **Practice** gratitude, goodwill and compassion (including self-compassion). This could include a) finding positives in a bad situation, e.g., your own abilities or things in the environment b) using a third person lens, describing your life (in a positive way) or c) imagining your own funeral. When dealing with somebody you don't like, **remind yourself of three things you like about that person**.
+
+There are of course different types of charisma. *Focus Charisma* relies primarily on presence and makes people feel heard. *Visionary Charisma* relies on an unwavering belief in a bold vision, which is somewhat altruistic. *Kindness Charisma* involves warmth and acceptance. *Authority Charism* is achieved through the projection of power and status. Think about what you are trying to achieve in a particular situation, and use your status.
